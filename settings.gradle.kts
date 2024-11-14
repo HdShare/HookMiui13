@@ -1,3 +1,5 @@
+@file:Suppress("UnstableApiUsage")
+
 pluginManagement {
     repositories {
         google {
@@ -16,6 +18,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://api.xposed.info") }
+        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://repo1.maven.org/maven2") }
     }
 }
 
