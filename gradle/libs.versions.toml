@@ -3,11 +3,13 @@ agp = "8.7.2"
 kotlin = "2.0.21"
 devtools = "2.0.21-1.0.27"
 material = "1.12.0"
+preferenceKtx = "1.2.1"
 xposed = "82"
 yukihookapi = "1.2.1"
 
 [libraries]
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtx" }
 xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed" }
 yukihookapi-api = { module = "com.highcapable.yukihookapi:api", version.ref = "yukihookapi" }
 yukihookapi-ksp-xposed = { module = "com.highcapable.yukihookapi:ksp-xposed", version.ref = "yukihookapi" }

@@ -31,7 +31,7 @@
             android:resource="@array/xposed_scope" />
 
         <activity
-            android:name=".ui.activity.MainActivity"
+            android:name=".ui.PrefsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
