@@ -46,4 +46,5 @@ dependencies {
     compileOnly(libs.xposed.api)
     implementation(libs.yukihookapi.api)
     ksp(libs.yukihookapi.ksp.xposed)
+    implementation(libs.dexkit)
 }

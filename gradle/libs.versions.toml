@@ -6,6 +6,7 @@ material = "1.12.0"
 preferenceKtx = "1.2.1"
 xposed = "82"
 yukihookapi = "1.2.1"
+dexkit = "2.0.2"
 
 [libraries]
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
@@ -13,6 +14,7 @@ preference-ktx = { group = "androidx.preference", name = "preference-ktx", versi
 xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed" }
 yukihookapi-api = { module = "com.highcapable.yukihookapi:api", version.ref = "yukihookapi" }
 yukihookapi-ksp-xposed = { module = "com.highcapable.yukihookapi:ksp-xposed", version.ref = "yukihookapi" }
+dexkit = { module = "org.luckypray:dexkit", version.ref = "dexkit" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

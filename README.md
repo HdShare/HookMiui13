@@ -50,4 +50,5 @@
 | Name        | Source                                                    |
 |-------------|-----------------------------------------------------------|
 | YukiHookAPI | [YukiHookAPI](https://github.com/HighCapable/YukiHookAPI) |
+| DexKit      | [DexKit](https://github.com/LuckyPray/DexKit)             |
 
