@@ -6,6 +6,7 @@ import com.highcapable.yukihookapi.hook.factory.configs
 import com.highcapable.yukihookapi.hook.factory.encase
 import com.highcapable.yukihookapi.hook.xposed.proxy.IYukiHookXposedInit
 import me.hd.hookmiui13.BuildConfig
+import me.hd.hookmiui13.hook.hookers.adsolution.RemoveOpenAds
 import me.hd.hookmiui13.hook.hookers.mms.RemoveMenuAndBtn
 import me.hd.hookmiui13.hook.hookers.security.RemoveWait
 import me.hd.hookmiui13.hook.hookers.updater.BlockUpdate
@@ -30,6 +31,9 @@ object HookEntry : IYukiHookXposedInit {
             }
             loadApp("com.android.mms") {
                 loadHooker(RemoveMenuAndBtn)
+            }
+            loadApp("com.miui.systemAdSolution") {
+                loadHooker(RemoveOpenAds)
             }
         }
     }

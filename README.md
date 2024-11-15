@@ -41,6 +41,8 @@
     - 移除等待(RemoveWait)
 - 短信(13.3.8.4)[com.android.mms]
     - 移除菜单与按钮(RemoveMenuAndBtn)
+- 智能服务(2024.02.19.10-release)[com.miui.systemAdSolution]
+    - 移除开屏广告(RemoveOpenAds)
 
 ---
 

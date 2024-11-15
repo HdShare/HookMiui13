@@ -37,4 +37,16 @@
             app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/prefs_title_systemAdSolution"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="RemoveOpenAds"
+            android:summary="@string/prefs_summary_remove_open_ads"
+            android:title="@string/prefs_title_remove_open_ads"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
