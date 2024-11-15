@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">HookMiui13</string>
-    <string name="prefs_title_update">系统更新</string>
+    <string name="prefs_title_update">系统更新_7.6.6</string>
     <string name="prefs_summary_block_update">屏蔽更新</string>
     <string name="prefs_title_block_update">屏蔽更新</string>
+    <string name="prefs_title_security">手机管家_6.2.0–220428.0.2</string>
+    <string name="prefs_summary_remove_wait">移除等待</string>
+    <string name="prefs_title_remove_wait">移除等待</string>
 </resources>

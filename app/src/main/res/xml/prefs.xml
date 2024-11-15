@@ -13,4 +13,16 @@
             app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/prefs_title_security"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="RemoveWait"
+            android:summary="@string/prefs_summary_remove_wait"
+            android:title="@string/prefs_title_remove_wait"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

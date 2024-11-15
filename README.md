@@ -37,6 +37,8 @@
 
 - 系统更新_7.6.6(com.android.updater)
     - 屏蔽更新(BlockUpdate)
+- 手机管家_6.2.0–220428.0.2(com.miui.securitycenter)
+    - 移除等待(RemoveWait)
 
 ---
 
