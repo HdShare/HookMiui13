@@ -25,4 +25,16 @@
             app:iconSpaceReserved="false" />
 
     </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/prefs_title_mms"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="RemoveMenuAndBtn"
+            android:summary="@string/prefs_summary_remove_menu_and_btn"
+            android:title="@string/prefs_title_remove_menu_and_btn"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

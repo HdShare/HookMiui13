@@ -6,4 +6,7 @@
     <string name="prefs_title_security">手机管家(6.2.0–220428.0.2)</string>
     <string name="prefs_summary_remove_wait">移除高度敏感功能的等待时间</string>
     <string name="prefs_title_remove_wait">移除等待</string>
+    <string name="prefs_title_mms">短信(13.3.8.4)</string>
+    <string name="prefs_summary_remove_menu_and_btn">移除底部快捷菜单与短信应用按钮</string>
+    <string name="prefs_title_remove_menu_and_btn">移除菜单与按钮</string>
 </resources>

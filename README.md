@@ -39,6 +39,8 @@
     - 屏蔽更新(BlockUpdate)
 - 手机管家(6.2.0–220428.0.2)[com.miui.securitycenter]
     - 移除等待(RemoveWait)
+- 短信(13.3.8.4)[com.android.mms]
+    - 移除菜单与按钮(RemoveMenuAndBtn)
 
 ---
 

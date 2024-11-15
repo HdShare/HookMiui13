@@ -3,5 +3,6 @@
     <string-array name="xposed_scope">
         <item>com.android.updater</item>
         <item>com.miui.securitycenter</item>
+        <item>com.android.mms</item>
     </string-array>
 </resources>
