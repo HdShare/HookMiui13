@@ -1,6 +1,5 @@
 package me.hd.hookmiui13.hook
 
-import com.highcapable.yukihookapi.YukiHookAPI
 import com.highcapable.yukihookapi.annotation.xposed.InjectYukiHookWithXposed
 import com.highcapable.yukihookapi.hook.factory.configs
 import com.highcapable.yukihookapi.hook.factory.encase
@@ -22,19 +21,17 @@ object HookEntry : IYukiHookXposedInit {
     }
 
     override fun onHook() = encase {
-        if (YukiHookAPI.Status.isModuleActive && packageName != BuildConfig.APPLICATION_ID) {
-            loadApp("com.android.updater") {
-                loadHooker(BlockUpdate)
-            }
-            loadApp("com.miui.securitycenter") {
-                loadHooker(RemoveWait)
-            }
-            loadApp("com.android.mms") {
-                loadHooker(RemoveMenuAndBtn)
-            }
-            loadApp("com.miui.systemAdSolution") {
-                loadHooker(RemoveOpenAds)
-            }
+        loadApp("com.android.updater") {
+            loadHooker(BlockUpdate)
+        }
+        loadApp("com.miui.securitycenter") {
+            loadHooker(RemoveWait)
+        }
+        loadApp("com.android.mms") {
+            loadHooker(RemoveMenuAndBtn)
+        }
+        loadApp("com.miui.systemAdSolution") {
+            loadHooker(RemoveOpenAds)
         }
     }
 }
